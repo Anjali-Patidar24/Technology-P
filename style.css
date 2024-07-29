@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.content {
+    padding: 20px;
+    text-align: center;
+}
+.title {
+    font-family: 'Bree Serif', serif;
+    color: #5752ab;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.description {
+    color: #323f4b;
+    margin: 0 0 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button {
+    padding: 10px 20px;
+    border: 1px solid #d7dfe9;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button.learn-more {
+    background-color: #ffffff;
+    color: #171f46;
+}
+.button.save-draft {
+    background-color: #5752ab;
+    color: #ffffff;
+}
